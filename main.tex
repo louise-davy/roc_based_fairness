@@ -1,0 +1,94 @@
+\documentclass[c]{beamer}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{kpfonts}
+\usepackage[english]{babel}
+\usepackage{animate}
+\usepackage{url}
+\usepackage{pgfplots}
+\usepgfplotslibrary{fillbetween} 
+\usepackage{colortbl}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage{csquotes}
+\usepackage[style=authortitle, maxbibnames=3, minbibnames=3]{biblatex}
+
+\addbibresource{references.bib} 
+
+\usepgfplotslibrary{external}
+\tikzexternalize
+
+\pgfmathdeclarefunction{logistic}{1}{%
+  \pgfmathparse{1/(1 + exp(-#1))}%
+}
+
+\usetheme{Frankfurt}
+\useinnertheme{circles}
+\useoutertheme[subsection=false]{miniframes}
+\usepackage{mycolourtheme}
+\usefonttheme{serif}
+\addtobeamertemplate{headline}{}{\vskip0.05cm}
+
+\author{Louise Davy}
+\institute{Télécom Paris}
+\date{\today}
+\title{Learning Fair Scoring Functions}
+\subtitle{Bipartite Ranking under ROC-based Fairness Constraints}
+
+
+\AtBeginSection{%
+  \begin{frame}
+    \frametitle{Outline}
+    %\tableofcontents[sectionstyle=show/shaded,hideothersubsections]
+    \tableofcontents[sectionstyle=show/shaded,subsectionstyle=hide]
+    %\tableofcontents[sectionstyle=show/hide,subsectionstyle=show/shaded/hide]
+  \end{frame}
+}
+\AtBeginSubsection{%
+  \begin{frame}<beamer>
+    \frametitle{Outline} \tableofcontents[sectionstyle=show/shaded,subsectionstyle=show/shaded/hide]
+  \end{frame}
+}
+
+\newcommand{\gbf}[1]{\textcolor{secondarycolor}{\textbf{#1}}}
+
+\pgfplotsset{compat=1.18}
+
+\begin{document}
+\setbeamertemplate{blocks}[default]
+\setbeamertemplate{title page}[default][colsep=-4bp,rounded=false]
+
+
+\frame[plain]{\titlepage
+}
+
+\begin{frame}
+  \frametitle{Outline}
+  \tableofcontents%[subsectionstyle=hide]
+\end{frame}
+
+% INTRODUCTION
+\input{sections/introduction}
+
+% CORPS DE LA PRESENTATION
+% Définitions
+\input{sections/definitions}
+
+
+% Contributions
+\input{sections/contributions}
+
+
+% Applications
+\input{sections/applications}
+
+% Conclusion
+\input{sections/conclusion}
+
+% Bibliography
+	\begin{frame}{Bibliography}
+		\printbibliography[heading=none].
+	\end{frame}
+
+\end{document}

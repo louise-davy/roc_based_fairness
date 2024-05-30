@@ -1,0 +1,13 @@
+\babel@toc {english}{}\relax 
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Definitions}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Ranking, bipartite ranking and pairwise bipartite ranking}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{ROC curve and AUC}{12}{0}{2}
+\beamer@subsectionintoc {2}{3}{ROC and bipartite ranking}{20}{0}{2}
+\beamer@sectionintoc {3}{Contributions}{23}{0}{3}
+\beamer@subsectionintoc {3}{1}{AUC based constraints}{26}{0}{3}
+\beamer@subsectionintoc {3}{2}{ROC based constraints}{28}{0}{3}
+\beamer@sectionintoc {4}{Applications}{30}{0}{4}
+\beamer@subsectionintoc {4}{1}{Compas dataset}{31}{0}{4}
+\beamer@subsectionintoc {4}{2}{Adult dataset}{33}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{35}{0}{5}

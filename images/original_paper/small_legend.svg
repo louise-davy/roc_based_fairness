@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg15797"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="small_legend.svg">
+  <defs
+     id="defs15791" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="43.273373"
+     inkscape:cy="892.9656"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="935"
+     inkscape:window-height="1017"
+     inkscape:window-x="965"
+     inkscape:window-y="20"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata15794">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:connector-curvature="0"
+       id="path11013"
+       style="display:inline;fill:#ffffff;fill-opacity:0.8;fill-rule:nonzero;stroke:#cccccc;stroke-width:0.1729738;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:0.8"
+       d="M 1.4858365,8.3765848 H 38.84298 c 0.181793,0 0.272682,-0.146301 0.272682,-0.438901 V 1.2067085 c 0,-0.29260101 -0.09089,-0.43890201 -0.272682,-0.43890201 H 1.4858365 c -0.1817899,0 -0.2726866,0.146301 -0.2726866,0.43890201 v 6.7309753 c 0,0.2926 0.090897,0.438901 0.2726866,0.438901 z" />
+    <g
+       style="display:inline"
+       id="g15621"
+       transform="matrix(0.35277777,0,0,-0.35277777,-140.87364,1.4075235)">
+      <text
+         y="5.6359744"
+         x="421.51218"
+         transform="scale(1,-1)"
+         style="font-variant:normal;font-weight:normal;font-size:6.25347471px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.6253475"
+         id="text11123">
+        <tspan
+           style="stroke-width:0.6253475"
+           x="421.51218 425.33304 429.17892 432.43698"
+           y="5.6359744"
+           sodipodi:role="line"
+           id="tspan11121">Test</tspan>
+      </text>
+      <g
+         transform="matrix(0.62534747,0,0,0.62534747,135.54073,56.845638)"
+         id="g11793">
+        <path
+           inkscape:connector-curvature="0"
+           id="path11197"
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+           d="m 433.5998,-112.09004 h 20" />
+        <g
+           id="g11223"
+           transform="translate(461.5998,-115.59004)">
+          <text
+             id="text11201"
+             style="font-style:italic;font-variant:normal;font-size:10px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans-Oblique;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,0,0.578125)">
+            <tspan
+               id="tspan11199"
+               sodipodi:role="line"
+               y="0"
+               x="0 6.9482422 14.819336">ROC</tspan>
+          </text>
+          <text
+             id="text11205"
+             style="font-style:italic;font-variant:normal;font-size:7px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans-Oblique;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,21.801758,-1.0625)">
+            <tspan
+               id="tspan11203"
+               y="0"
+               x="0">H</tspan>
+          </text>
+          <text
+             id="text11209"
+             style="font-style:italic;font-variant:normal;font-size:4.9000001px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans-Oblique;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,27.06543,-2.2109375)">
+            <tspan
+               id="tspan11207"
+               y="0"
+               x="0">s</tspan>
+          </text>
+          <text
+             id="text11213"
+             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,29.809717,-1.0625)">
+            <tspan
+               id="tspan11211"
+               y="0"
+               x="0">,</tspan>
+          </text>
+          <text
+             id="text11217"
+             style="font-style:italic;font-variant:normal;font-size:7px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans-Oblique;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,33.398584,-1.0625)">
+            <tspan
+               id="tspan11215"
+               y="0"
+               x="0">G</tspan>
+          </text>
+          <text
+             id="text11221"
+             style="font-style:italic;font-variant:normal;font-size:4.9000001px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans-Oblique;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,38.8229,-2.2109375)">
+            <tspan
+               id="tspan11219"
+               y="0"
+               x="0">s</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-140.87364,1.4244885)"
+       style="display:inline"
+       id="g15602">
+      <text
+         transform="scale(1,-1)"
+         y="5.7321587"
+         x="477.1666"
+         style="font-variant:normal;font-weight:normal;font-size:6.25347471px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;display:inline;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.6253475"
+         id="text11017">
+        <tspan
+           style="stroke-width:0.6253475"
+           x="477.1666 480.98746 483.55768 487.39105 489.12952"
+           y="5.7321587"
+           sodipodi:role="line"
+           id="tspan11015">Train</tspan>
+      </text>
+      <g
+         transform="matrix(0.62534747,0,0,0.62534747,134.95348,20.692889)"
+         id="g11869"
+         style="display:inline">
+        <path
+           inkscape:connector-curvature="0"
+           id="path11091"
+           style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:5.55, 2.4;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 524.89482,-54.277782 h 20" />
+        <g
+           id="g11117"
+           transform="translate(552.89482,-57.777782)">
+          <text
+             id="text11095"
+             style="font-style:italic;font-variant:normal;font-size:10px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans-Oblique;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,0,0.578125)">
+            <tspan
+               id="tspan11093"
+               sodipodi:role="line"
+               y="0"
+               x="0 6.9482422 14.819336">ROC</tspan>
+          </text>
+          <text
+             id="text11099"
+             style="font-style:italic;font-variant:normal;font-size:7px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans-Oblique;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,21.801758,-1.0625)">
+            <tspan
+               id="tspan11097"
+               y="0"
+               x="0">H</tspan>
+          </text>
+          <text
+             id="text11103"
+             style="font-style:italic;font-variant:normal;font-size:4.9000001px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans-Oblique;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,27.06543,-2.2109375)">
+            <tspan
+               id="tspan11101"
+               y="0"
+               x="0">s</tspan>
+          </text>
+          <text
+             id="text11107"
+             style="font-variant:normal;font-weight:normal;font-size:7px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,29.809717,-1.0625)">
+            <tspan
+               id="tspan11105"
+               y="0"
+               x="0">,</tspan>
+          </text>
+          <text
+             id="text11111"
+             style="font-style:italic;font-variant:normal;font-size:7px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans-Oblique;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,33.398584,-1.0625)">
+            <tspan
+               id="tspan11109"
+               y="0"
+               x="0">G</tspan>
+          </text>
+          <text
+             id="text11115"
+             style="font-style:italic;font-variant:normal;font-size:4.9000001px;font-family:'DejaVu Sans';-inkscape-font-specification:DejaVuSans-Oblique;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,38.8229,-2.2109375)">
+            <tspan
+               id="tspan11113"
+               y="0"
+               x="0">s</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
