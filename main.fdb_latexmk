@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1717076534.29446 -1
-  "main.bcf" 1717076533 108436 06f29034e82719152d2d327bd4a8ae01 "pdflatex"
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1717077182.10433 -1
+  "main.bcf" 1717077181 108436 06f29034e82719152d2d327bd4a8ae01 "pdflatex"
   "references.bib" 1716292632 308 92d1d78aa43a7b4bf1f8445ab8f19b81 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1717076524.19035 "c:/Users/louis/Documents/Stage Télécom Paris/Présentations/Groupe Lecture/roc_based_fairness/main.tex" "main.pdf" "main" 1717076534.29556 0
+["pdflatex"] 1717077172.118 "c:/Users/louis/Documents/Stage Télécom Paris/Présentations/Groupe Lecture/roc_based_fairness/main.tex" "main.pdf" "main" 1717077182.10526 0
   "c:/Users/louis/Documents/Stage Télécom Paris/Présentations/Groupe Lecture/roc_based_fairness/main.tex" 1716380904 2070 99b38ac5925e185437fbe4c1377e2a0d ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1716303346 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc" 1716304951 2639 b7bbeb66c016cde6fdcad9263fe54a4a ""
@@ -359,16 +359,16 @@
   "images/output-figure3.pdf" 1716292632 30135 24757708f33af1f95404966170ed2691 ""
   "images/output-figure4.pdf" 1716292632 30038 19882f06ac659cfa8fb1892d66f7ec4c ""
   "images/output-figure5.pdf" 1716292632 29898 3d9f21964899955612302119d7706054 ""
-  "main.aux" 1717076533 14027 dab70800f5f8435355c778fa2de9b584 "pdflatex"
+  "main.aux" 1717077181 14027 dab70800f5f8435355c778fa2de9b584 "pdflatex"
   "main.bbl" 1717070106 2100 26f995b14eabbc9378e861ef525041bb "biber main"
-  "main.nav" 1717076533 6381 4331a9514a1c95642a95b6b05be432ec "pdflatex"
-  "main.run.xml" 1717076533 2313 a62947d0c020c6b770a966c0879ab06a "pdflatex"
+  "main.nav" 1717077181 6381 4331a9514a1c95642a95b6b05be432ec "pdflatex"
+  "main.run.xml" 1717077181 2313 a62947d0c020c6b770a966c0879ab06a "pdflatex"
   "main.tex" 1716380904 2070 99b38ac5925e185437fbe4c1377e2a0d ""
-  "main.toc" 1717076533 789 6dfa46951d84acc60a672f4a354ab809 "pdflatex"
+  "main.toc" 1717077181 789 6dfa46951d84acc60a672f4a354ab809 "pdflatex"
   "mycolourtheme.sty" 1716292632 1204 4372d04789bd961df5b34e816680bc37 ""
   "sections/applications.tex" 1717071702 713 a4d38eb76906d8b6ce29d16071fd845d ""
   "sections/conclusion.tex" 1716292632 63 289c1c1ffb71a2f42aa33a76707bf64d ""
-  "sections/contributions.tex" 1717076523 1329 8e4a2c81195a8369441c1bbdda337fbf ""
+  "sections/contributions.tex" 1717077171 1367 5d7bbd3778781eca9438a9b739242e36 ""
   "sections/definitions.tex" 1717074713 20261 60d75b04e8aacbb1bd89863c5f880a49 ""
   "sections/introduction.tex" 1716292632 688 78ea0c98bbf71a92ef00071e0566aa50 ""
   (generated)
