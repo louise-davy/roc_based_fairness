@@ -673,6 +673,11 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/kpfonts/jkpexa.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/public/kpfonts/jkpbn8t.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/kpfonts/jkpbn8r.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/kpfonts/jkpbne.tfm
+INPUT main-figure0.md5
+INPUT main-figure0.pdf
+INPUT main-figure0.dpth
+INPUT main-figure0.pdf
+INPUT ./main-figure0.pdf
 INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/kpfonts/jkpmn8t.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/kpfonts/jkpmn8t.tfm

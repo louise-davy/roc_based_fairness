@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1717077414.01097 -1
-  "main.bcf" 1717077413 108436 06f29034e82719152d2d327bd4a8ae01 "pdflatex"
+["biber main"] 1717085458.10124 "main.bcf" "main.bbl" "main" 1717407191.77811 0
+  "main.bcf" 1717407191 108436 06f29034e82719152d2d327bd4a8ae01 "pdflatex"
   "references.bib" 1716292632 308 92d1d78aa43a7b4bf1f8445ab8f19b81 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1717077401.56334 "c:/Users/louis/Documents/Stage Télécom Paris/Présentations/Groupe Lecture/roc_based_fairness/main.tex" "main.pdf" "main" 1717077414.01228 0
+["pdflatex"] 1717407180.53526 "c:/Users/louis/Documents/Stage Télécom Paris/Présentations/Groupe Lecture/roc_based_fairness/main.tex" "main.pdf" "main" 1717407191.7794 0
   "c:/Users/louis/Documents/Stage Télécom Paris/Présentations/Groupe Lecture/roc_based_fairness/main.tex" 1716380904 2070 99b38ac5925e185437fbe4c1377e2a0d ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1716303346 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc" 1716304951 2639 b7bbeb66c016cde6fdcad9263fe54a4a ""
@@ -359,17 +359,20 @@
   "images/output-figure3.pdf" 1716292632 30135 24757708f33af1f95404966170ed2691 ""
   "images/output-figure4.pdf" 1716292632 30038 19882f06ac659cfa8fb1892d66f7ec4c ""
   "images/output-figure5.pdf" 1716292632 29898 3d9f21964899955612302119d7706054 ""
-  "main.aux" 1717077413 14027 dab70800f5f8435355c778fa2de9b584 "pdflatex"
-  "main.bbl" 1717070106 2100 26f995b14eabbc9378e861ef525041bb "biber main"
-  "main.nav" 1717077413 6381 4331a9514a1c95642a95b6b05be432ec "pdflatex"
-  "main.run.xml" 1717077413 2313 a62947d0c020c6b770a966c0879ab06a "pdflatex"
+  "main-figure0.dpth" 1717407171 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "main-figure0.md5" 1717407168 62 6ad0f8b6e67ec5065ce46822c5736a06 ""
+  "main-figure0.pdf" 1717407173 51143 01b3a2b16970df6bb8ccbc9b1b7006a9 ""
+  "main.aux" 1717407191 14213 46c136814000159f49d39b27b22a57c1 "pdflatex"
+  "main.bbl" 1717085460 2100 26f995b14eabbc9378e861ef525041bb "biber main"
+  "main.nav" 1717407191 6530 7322294828cdfd54a3b05e0472e0617d "pdflatex"
+  "main.run.xml" 1717407191 2313 a62947d0c020c6b770a966c0879ab06a "pdflatex"
   "main.tex" 1716380904 2070 99b38ac5925e185437fbe4c1377e2a0d ""
-  "main.toc" 1717077413 789 6dfa46951d84acc60a672f4a354ab809 "pdflatex"
+  "main.toc" 1717407191 789 023fb89ae9b15e63e944fac159f0d204 "pdflatex"
   "mycolourtheme.sty" 1716292632 1204 4372d04789bd961df5b34e816680bc37 ""
   "sections/applications.tex" 1717071702 713 a4d38eb76906d8b6ce29d16071fd845d ""
-  "sections/conclusion.tex" 1716292632 63 289c1c1ffb71a2f42aa33a76707bf64d ""
+  "sections/conclusion.tex" 1717406172 90 a77e8be3a52ffa388ec0aa3cfebac19c ""
   "sections/contributions.tex" 1717077400 1383 64a2ef016fff7abd127915ef7621c6b5 ""
-  "sections/definitions.tex" 1717074713 20261 60d75b04e8aacbb1bd89863c5f880a49 ""
+  "sections/definitions.tex" 1717407162 21195 efa72caf679be718836cb14a8a990c1e ""
   "sections/introduction.tex" 1716292632 688 78ea0c98bbf71a92ef00071e0566aa50 ""
   (generated)
   "main.aux"

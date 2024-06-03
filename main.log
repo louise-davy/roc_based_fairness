@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.22)  30 MAY 2024 15:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.22)  3 JUN 2024 11:33
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **"c:/Users/louis/Documents/Stage Télécom Paris/Présentations/Groupe Lecture/roc_based_fairness/main.tex"
@@ -1443,251 +1443,255 @@ File: t1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for T1/jkptt.
 
 ] [7
 
-] [8
+]
+===== Image 'main-figure0' is up-to-date. ======
+[8
 
-] [9
+ <./main-figure0.pdf>] [9
+
+] [10
 
 {c:/texlive/2024/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc}]
-<images/link.png, id=1158, 425.79076pt x 258.9675pt>
+<images/link.png, id=1315, 425.79076pt x 258.9675pt>
 File: images/link.png Graphic file (type png)
 <use images/link.png>
-Package pdftex.def Info: images/link.png  used on input line 55.
+Package pdftex.def Info: images/link.png  used on input line 83.
 (pdftex.def)             Requested size: 127.7382pt x 77.69084pt.
- [10
+ [11
 
- <./images/link.png>] [11
+ <./images/link.png>] [12
 
-] (./main.toc) [12
+] (./main.toc) [13
 
 ]
-<images/output-figure0.pdf, id=1508, page=1, 282.83469pt x 114.0551pt>
+<images/output-figure0.pdf, id=1672, page=1, 282.83469pt x 114.0551pt>
 File: images/output-figure0.pdf Graphic file (type pdf)
 <use images/output-figure0.pdf, page 1>
-Package pdftex.def Info: images/output-figure0.pdf , page1 used on input line 131.
+Package pdftex.def Info: images/output-figure0.pdf , page1 used on input line 159.
 (pdftex.def)             Requested size: 282.83398pt x 114.05481pt.
- [13
+ [14
 
- <./images/output-figure0.pdf>] [14
+ <./images/output-figure0.pdf>] [15
 
 ]
-<images/output-figure1.pdf, id=1756, page=1, 282.83469pt x 114.0551pt>
+<images/output-figure1.pdf, id=1919, page=1, 282.83469pt x 114.0551pt>
 File: images/output-figure1.pdf Graphic file (type pdf)
 <use images/output-figure1.pdf, page 1>
-Package pdftex.def Info: images/output-figure1.pdf , page1 used on input line 214.
+Package pdftex.def Info: images/output-figure1.pdf , page1 used on input line 242.
 (pdftex.def)             Requested size: 282.83398pt x 114.05481pt.
- [15
-
- <./images/output-figure1.pdf>]
-<images/output-figure2.pdf, id=1887, page=1, 286.07478pt x 114.0551pt>
-File: images/output-figure2.pdf Graphic file (type pdf)
-<use images/output-figure2.pdf, page 1>
-Package pdftex.def Info: images/output-figure2.pdf , page1 used on input line 281.
-(pdftex.def)             Requested size: 286.07407pt x 114.05481pt.
  [16
 
- <./images/output-figure2.pdf>]
-<images/output-figure3.pdf, id=2018, page=1, 282.83469pt x 114.0551pt>
-File: images/output-figure3.pdf Graphic file (type pdf)
-<use images/output-figure3.pdf, page 1>
-Package pdftex.def Info: images/output-figure3.pdf , page1 used on input line 348.
-(pdftex.def)             Requested size: 282.83398pt x 114.05481pt.
+ <./images/output-figure1.pdf>]
+<images/output-figure2.pdf, id=2052, page=1, 286.07478pt x 114.0551pt>
+File: images/output-figure2.pdf Graphic file (type pdf)
+<use images/output-figure2.pdf, page 1>
+Package pdftex.def Info: images/output-figure2.pdf , page1 used on input line 309.
+(pdftex.def)             Requested size: 286.07407pt x 114.05481pt.
  [17
 
- <./images/output-figure3.pdf>]
-<images/output-figure4.pdf, id=2149, page=1, 282.83469pt x 114.0551pt>
-File: images/output-figure4.pdf Graphic file (type pdf)
-<use images/output-figure4.pdf, page 1>
-Package pdftex.def Info: images/output-figure4.pdf , page1 used on input line 415.
+ <./images/output-figure2.pdf>]
+<images/output-figure3.pdf, id=2185, page=1, 282.83469pt x 114.0551pt>
+File: images/output-figure3.pdf Graphic file (type pdf)
+<use images/output-figure3.pdf, page 1>
+Package pdftex.def Info: images/output-figure3.pdf , page1 used on input line 376.
 (pdftex.def)             Requested size: 282.83398pt x 114.05481pt.
  [18
 
- <./images/output-figure4.pdf>]
-<images/output-figure5.pdf, id=2280, page=1, 282.83469pt x 114.0551pt>
-File: images/output-figure5.pdf Graphic file (type pdf)
-<use images/output-figure5.pdf, page 1>
-Package pdftex.def Info: images/output-figure5.pdf , page1 used on input line 483.
+ <./images/output-figure3.pdf>]
+<images/output-figure4.pdf, id=2318, page=1, 282.83469pt x 114.0551pt>
+File: images/output-figure4.pdf Graphic file (type pdf)
+<use images/output-figure4.pdf, page 1>
+Package pdftex.def Info: images/output-figure4.pdf , page1 used on input line 443.
 (pdftex.def)             Requested size: 282.83398pt x 114.05481pt.
  [19
 
- <./images/output-figure5.pdf>] (./main.toc) [20
+ <./images/output-figure4.pdf>]
+<images/output-figure5.pdf, id=2452, page=1, 282.83469pt x 114.0551pt>
+File: images/output-figure5.pdf Graphic file (type pdf)
+<use images/output-figure5.pdf, page 1>
+Package pdftex.def Info: images/output-figure5.pdf , page1 used on input line 511.
+(pdftex.def)             Requested size: 282.83398pt x 114.05481pt.
+ [20
 
-] [21
+ <./images/output-figure5.pdf>] (./main.toc) [21
+
+] [22
 
 ]
-<images/gifs/roc_curve_creation/roc_curve_creation-1.png, id=2644, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-1.png, id=2821, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-1.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-1.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-1.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-1.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
  <./images/gifs/roc_curve_creation/roc_curve_creation-1.png (PNG copy)> <a0,fr0>
-<images/gifs/roc_curve_creation/roc_curve_creation-2.png, id=2647, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-2.png, id=2824, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-2.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-2.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-2.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-2.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
  <./images/gifs/roc_curve_creation/roc_curve_creation-2.png (PNG copy)> <a0,fr1>
-<images/gifs/roc_curve_creation/roc_curve_creation-3.png, id=2650, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-3.png, id=2827, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-3.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-3.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-3.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-3.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
  <./images/gifs/roc_curve_creation/roc_curve_creation-3.png (PNG copy)> <a0,fr2>
-<images/gifs/roc_curve_creation/roc_curve_creation-4.png, id=2653, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-4.png, id=2830, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-4.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-4.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-4.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-4.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
  <./images/gifs/roc_curve_creation/roc_curve_creation-4.png (PNG copy)> <a0,fr3>
-<images/gifs/roc_curve_creation/roc_curve_creation-5.png, id=2656, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-5.png, id=2833, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-5.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-5.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-5.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-5.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
  <./images/gifs/roc_curve_creation/roc_curve_creation-5.png (PNG copy)> <a0,fr4>
-<images/gifs/roc_curve_creation/roc_curve_creation-6.png, id=2659, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-6.png, id=2836, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-6.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-6.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-6.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-6.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
  <./images/gifs/roc_curve_creation/roc_curve_creation-6.png (PNG copy)> <a0,fr5>
-<images/gifs/roc_curve_creation/roc_curve_creation-7.png, id=2662, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-7.png, id=2839, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-7.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-7.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-7.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-7.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
  <./images/gifs/roc_curve_creation/roc_curve_creation-7.png (PNG copy)> <a0,fr6>
-<images/gifs/roc_curve_creation/roc_curve_creation-8.png, id=2665, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-8.png, id=2842, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-8.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-8.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-8.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-8.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
  <./images/gifs/roc_curve_creation/roc_curve_creation-8.png (PNG copy)> <a0,fr7>
-<images/gifs/roc_curve_creation/roc_curve_creation-9.png, id=2668, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-9.png, id=2845, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-9.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-9.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-9.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-9.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
  <./images/gifs/roc_curve_creation/roc_curve_creation-9.png (PNG copy)> <a0,fr8>
-<images/gifs/roc_curve_creation/roc_curve_creation-10.png, id=2671, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-10.png, id=2848, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-10.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-10.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-10.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-10.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
  <./images/gifs/roc_curve_creation/roc_curve_creation-10.png (PNG copy)> <a0,fr9>
-<images/gifs/roc_curve_creation/roc_curve_creation-11.png, id=2674, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-11.png, id=2851, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-11.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-11.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-11.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-11.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
  <./images/gifs/roc_curve_creation/roc_curve_creation-11.png (PNG copy)> <a0,fr10>
-<images/gifs/roc_curve_creation/roc_curve_creation-12.png, id=2677, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-12.png, id=2854, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-12.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-12.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-12.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-12.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
  <./images/gifs/roc_curve_creation/roc_curve_creation-12.png (PNG copy)> <a0,fr11>
-<images/gifs/roc_curve_creation/roc_curve_creation-13.png, id=2680, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-13.png, id=2857, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-13.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-13.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-13.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-13.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
  <./images/gifs/roc_curve_creation/roc_curve_creation-13.png (PNG copy)> <a0,fr12>
-<images/gifs/roc_curve_creation/roc_curve_creation-14.png, id=2683, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-14.png, id=2860, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-14.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-14.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-14.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-14.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
  <./images/gifs/roc_curve_creation/roc_curve_creation-14.png (PNG copy)> <a0,fr13>
-<images/gifs/roc_curve_creation/roc_curve_creation-15.png, id=2686, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-15.png, id=2863, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-15.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-15.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-15.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-15.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
  <./images/gifs/roc_curve_creation/roc_curve_creation-15.png (PNG copy)> <a0,fr14>
-<images/gifs/roc_curve_creation/roc_curve_creation-16.png, id=2689, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-16.png, id=2866, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-16.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-16.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-16.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-16.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
  <./images/gifs/roc_curve_creation/roc_curve_creation-16.png (PNG copy)> <a0,fr15>
-<images/gifs/roc_curve_creation/roc_curve_creation-17.png, id=2692, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-17.png, id=2869, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-17.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-17.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-17.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-17.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
  <./images/gifs/roc_curve_creation/roc_curve_creation-17.png (PNG copy)> <a0,fr16>
-<images/gifs/roc_curve_creation/roc_curve_creation-18.png, id=2695, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-18.png, id=2872, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-18.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-18.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-18.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-18.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
  <./images/gifs/roc_curve_creation/roc_curve_creation-18.png (PNG copy)> <a0,fr17>
-<images/gifs/roc_curve_creation/roc_curve_creation-19.png, id=2698, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-19.png, id=2875, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-19.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-19.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-19.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-19.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
  <./images/gifs/roc_curve_creation/roc_curve_creation-19.png (PNG copy)> <a0,fr18>
-<images/gifs/roc_curve_creation/roc_curve_creation-20.png, id=2701, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-20.png, id=2878, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-20.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-20.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-20.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-20.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
  <./images/gifs/roc_curve_creation/roc_curve_creation-20.png (PNG copy)> <a0,fr19>
-<images/gifs/roc_curve_creation/roc_curve_creation-21.png, id=2704, 364.2408pt x 273.1806pt>
+<images/gifs/roc_curve_creation/roc_curve_creation-21.png, id=2881, 364.2408pt x 273.1806pt>
 File: images/gifs/roc_curve_creation/roc_curve_creation-21.png Graphic file (type png)
 <use images/gifs/roc_curve_creation/roc_curve_creation-21.png>
-Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-21.png  used on input line 518.
+Package pdftex.def Info: images/gifs/roc_curve_creation/roc_curve_creation-21.png  used on input line 546.
 (pdftex.def)             Requested size: 364.23991pt x 273.17992pt.
- <./images/gifs/roc_curve_creation/roc_curve_creation-21.png (PNG copy)> <a0,fr20> [22
+ <./images/gifs/roc_curve_creation/roc_curve_creation-21.png (PNG copy)> <a0,fr20> [23
 
-]) (./sections/contributions.tex (./main.toc) [23
-
-] [24
+]) (./sections/contributions.tex (./main.toc) [24
 
 ] [25
 
-] (./main.toc) [26
+] [26
 
-] [27
+] (./main.toc) [27
+
+] [28
 
 ]
-<images/original_paper/example_simple_dists_explained_with_table2.pdf, id=3417, 141.32895pt x 135.98795pt>
+<images/original_paper/example_simple_dists_explained_with_table2.pdf, id=3607, 141.32895pt x 135.98795pt>
 File: images/original_paper/example_simple_dists_explained_with_table2.pdf Graphic file (type pdf)
 <use images/original_paper/example_simple_dists_explained_with_table2.pdf>
 Package pdftex.def Info: images/original_paper/example_simple_dists_explained_with_table2.pdf  used on input line 32.
 (pdftex.def)             Requested size: 184.3758pt x 177.40678pt.
- [28
+ [29
 
- <./images/original_paper/example_simple_dists_explained_with_table2.pdf>] (./main.toc) [29
+ <./images/original_paper/example_simple_dists_explained_with_table2.pdf>] (./main.toc) [30
 
-] [30
+] [31
 
-]) (./sections/applications.tex (./main.toc) [31
+]) (./sections/applications.tex (./main.toc) [32
 
-] (./main.toc) [32
+] (./main.toc) [33
 
-] [33
+] [34
 
-] (./main.toc) [34
+] (./main.toc) [35
 
-] [35
+] [36
 
-] (./main.toc) [36
+] (./main.toc) [37
 
 ]
-<images/original_paper/main_text_inkscape_all_rocs_no_train_new.pdf, id=4613, 349.70386pt x 143.36545pt>
+<images/original_paper/main_text_inkscape_all_rocs_no_train_new.pdf, id=4821, 349.70386pt x 143.36545pt>
 File: images/original_paper/main_text_inkscape_all_rocs_no_train_new.pdf Graphic file (type pdf)
 <use images/original_paper/main_text_inkscape_all_rocs_no_train_new.pdf>
 Package pdftex.def Info: images/original_paper/main_text_inkscape_all_rocs_no_train_new.pdf  used on input line 23.
 (pdftex.def)             Requested size: 307.28987pt x 125.98259pt.
- [37
+ [38
 
- <./images/original_paper/main_text_inkscape_all_rocs_no_train_new.pdf>]) (./sections/conclusion.tex (./main.toc) [38
+ <./images/original_paper/main_text_inkscape_all_rocs_no_train_new.pdf>]) (./sections/conclusion.tex (./main.toc) [39
 
-] [39
+] [40
 
-]) [40
+]) [41
 
  <c:/texlive/2024/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
 \tf@nav=\write6
@@ -1709,18 +1713,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48252 strings out of 474050
- 1109753 string characters out of 5746298
- 2000482 words of memory out of 5000000
- 69687 multiletter control sequences out of 15000+600000
+ 48263 strings out of 474050
+ 1109924 string characters out of 5746298
+ 2000512 words of memory out of 5000000
+ 69693 multiletter control sequences out of 15000+600000
  661797 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,123p,840b,2355s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpbne.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
-Output written on main.pdf (40 pages, 1678336 bytes).
+Output written on main.pdf (41 pages, 1688465 bytes).
 PDF statistics:
- 5317 PDF objects out of 6186 (max. 8388607)
- 3258 compressed objects within 33 object streams
- 97 named destinations out of 1000 (max. 500000)
- 465 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5531 PDF objects out of 6186 (max. 8388607)
+ 3379 compressed objects within 34 object streams
+ 99 named destinations out of 1000 (max. 500000)
+ 470 words of extra memory for PDF output out of 10000 (max. 10000000)
 
