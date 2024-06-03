@@ -1,0 +1,89 @@
+
+\section{Notations}
+\begin{frame}{Notations}
+
+    \begin{itemize}
+        \item \textbf{Input space} : $X$, taking values in $\mathcal{X} \subset \mathbb{R}^d$, with $d \geq 1$
+        \item \textbf{Output space} : $Y$, taking values in $[-1,+1]$
+        \item \textbf{Sensitive attribute} : $Z$, taking values in $\{0,1\}$
+        \item \textbf{Scoring function} : $s : \substack{X \rightarrow Y \\ x \mapsto s(x)}$ 
+        \item \textbf{TPR} = True Positive Rate = $\mathbb{P} \{s(X) > t | Y = +1 \}$
+        \item \textbf{TNR} = True Negative Rate = $\mathbb{P} \{s(X) \leq t | Y = -1 \}$
+        \item \textbf{FPR} =  False Positive Rate = $\mathbb{P} \{s(X) > t | Y = -1 \}$
+        \item \textbf{FNR} = False Negative Rate = $\mathbb{P} \{s(X) \leq t | Y = +1 \}$
+    \end{itemize}
+    
+\end{frame}
+
+\begin{frame}{Notations}
+
+    \begin{itemize}
+        \item \textbf{Conditional distributions of X given Y} : \\
+        $G$ = $\mathbb{P}\{X | Y=+1\}$ \\
+        $H$ = $\mathbb{P}\{X | Y=-1\}$
+        \item \textbf{Cumulative distribution functions} : \\
+        \vspace{-0.85cm} 
+        \begin{flalign*}
+            G_s(t) &:= \mathbb{P} \{s(X) \leq t | Y = +1 \}&&\\
+            &= G(s(X) \leq t)&&\\
+            &= \text{\textbf{FNR}}(t) &&
+        \end{flalign*} 
+        \vspace{-1.1cm}
+        \begin{flalign*}
+            H_s(t) &:= \mathbb{P} \{s(X) \leq t | Y = -1 \}&&\\
+            &= H(s(X) \leq t)&&\\
+            &= \text{\textbf{TNR}}(t)&&
+        \end{flalign*}   
+        
+        \vspace{-0.3cm}
+        
+    \end{itemize}
+    
+\end{frame}
+
+
+\begin{frame}{Notations}
+
+    \begin{itemize}
+        \item \textbf{ROC curve} : For a fixed \textbf{FPR} that we note $\alpha \in  [0,1]$ :\\
+        \vspace{-0.85cm} 
+        \begin{flalign*}
+            ROC(\alpha) &= \text{\textbf{TPR}}(\alpha)&&\\
+            &= 1 - \text{\textbf{FNR}} (\text{\textbf{TNR}}^{-1}(1 - \alpha))&&\\ 
+            &= 1 - G_s (H_s^{-1} (1- \alpha))&& 
+        \end{flalign*}
+        \vspace{-0.85cm}
+        \item Where $\text{\textbf{TNR}}^{-1}(1 - \alpha) = \text{\textbf{FPR}}^{-1}(\alpha) = t_\alpha$
+        \item From now on, we will note $ROC_{H_s,G_s}(\alpha) = ROC(\alpha)$
+    \end{itemize}
+    
+\end{frame}
+
+
+\begin{frame}{Notations}
+
+    \begin{itemize}
+        \item Why do we use \textbf{FNR} and \textbf{TNR} instead of \textbf{TPR} and \textbf{FPR} ? 
+        \item Because they are cumulative distribution functions and \textbf{FPR} and \textbf{TPR} are not.
+        \item We can finally define \textbf{AUC} : $AUC_{H_s,G_s} = \int_{0}^{1} ROC_{H_s,G_s}(\alpha) d\alpha$
+    \end{itemize}
+    
+\end{frame}
+
+\begin{frame}{Empirical counterparts}
+
+    \begin{itemize}
+        \item \textbf{Training set} : $(X_i,Y_i)_{i=1}^n$ with $n_+$ positive examples and $n_-$ negative examples.
+        \item \textbf{Empirical of $G_s$ and $H_s$} : \\
+        \vspace{-0.85cm}
+        \begin{flalign*}
+            \widehat{G}_s(t) &:= (1/n_+) \sum_{i=1}^n \mathds{1}\{ Y_i = +1, s(X_i)
+            \le t \}, &&\\
+            \widehat{H}_s(t) &:= (1/n_-) \sum_{i=1}^n \mathds{1}\{ Y_i = -1, s(X_i)
+            \le t\}.&&
+        \end{flalign*} 
+    \end{itemize}
+    
+\end{frame}
+
+

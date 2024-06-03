@@ -13,7 +13,12 @@
 \end{frame}
 
 \begin{frame}{Motivation}
-    Fairness in ranking is important because it can have a significant impact on the decision-making process. For example, in the context of hiring, a biased ranking model can lead to unfair hiring practices.
+    \begin{itemize}
+        \item The vast majority of fairness-aware machine learning research focuses on classification models.
+        \item However, many real-worl applications require bipartite ranking models. 
+        \item Because they are evaluated differently (\textit{i.e}, with ROC curves), evaluating fairness for bipartite ranking models might also be more challenging.        
+        \item However, learning a scoring function over a classifier adds more flexibility to the thresholds, which means that a fair scoring function will lead to fair decisions for all thresholds of interest.
+    \end{itemize}
 \end{frame}
 
 
