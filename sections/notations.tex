@@ -21,7 +21,7 @@
         \item \textbf{Conditional distributions of X given Y} : \\
         $G$ = $\mathbb{P}\{X | Y=+1\}$ \\
         $H$ = $\mathbb{P}\{X | Y=-1\}$
-        \item \textbf{Cumulative distribution functions} : \\
+        \item \textbf{Cumulative distribution functions (CDFs)} : \\
         \vspace{-0.85cm} 
         \begin{flalign*}
             G_s(t) &:= \mathbb{P} \{s(X) \leq t | Y = +1 \}&&\\
@@ -45,27 +45,21 @@
 \begin{frame}{Notations}
 
     \begin{itemize}
-        \item \textbf{ROC curve} : For a fixed \textbf{FPR} that we note $\alpha \in  [0,1]$ :\\
+        \item \textbf{ROC curve} : For a fixed \textbf{FPR} that we write  $\alpha \in  [0,1]$ :\\
         \vspace{-0.85cm} 
         \begin{flalign*}
-            ROC(\alpha) &= \text{\textbf{TPR}}(\alpha)&&\\
+            ROC(\alpha) &:= \text{\textbf{TPR}}(\alpha)&&\\
             &= 1 - \text{\textbf{FNR}} (\text{\textbf{TNR}}^{-1}(1 - \alpha))&&\\ 
             &= 1 - G_s (H_s^{-1} (1- \alpha))&& 
         \end{flalign*}
         \vspace{-0.85cm}
-        \item Where $\text{\textbf{TNR}}^{-1}(1 - \alpha) = \text{\textbf{FPR}}^{-1}(\alpha) = t_\alpha$
-        \item From now on, we will note $ROC_{H_s,G_s}(\alpha) = ROC(\alpha)$
-    \end{itemize}
-    
-\end{frame}
-
-
-\begin{frame}{Notations}
-
-    \begin{itemize}
+        
+        where $\text{\textbf{TNR}}^{-1}(1 - \alpha) = \text{\textbf{FPR}}^{-1}(\alpha) = t_\alpha$.
+        \item From now on, we will write $ROC_{H_s,G_s}(\alpha)$.
         \item Why do we use \textbf{FNR} and \textbf{TNR} instead of \textbf{TPR} and \textbf{FPR} ? 
-        \item Because they are cumulative distribution functions and \textbf{FPR} and \textbf{TPR} are not.
-        \item We can finally define \textbf{AUC} : $AUC_{H_s,G_s} = \int_{0}^{1} ROC_{H_s,G_s}(\alpha) d\alpha$
+        \item Because they are cumulative distribution functions. 
+        \item We can finally define the \textbf{AUC} :\\
+        $AUC_{H_s,G_s} = \int_{0}^{1} ROC_{H_s,G_s}(\alpha) d\alpha = \mathbf{P}\{G_s > H_s\} + \frac{1}{2} \mathbf{P}\{G_s = H_s\}$
     \end{itemize}
     
 \end{frame}
@@ -74,14 +68,20 @@
 
     \begin{itemize}
         \item \textbf{Training set} : $(X_i,Y_i)_{i=1}^n$ with $n_+$ positive examples and $n_-$ negative examples.
-        \item \textbf{Empirical of $G_s$ and $H_s$} : \\
-        \vspace{-0.85cm}
+        \item \textbf{Empirical $G_s$ and $H_s$} : \\
+        $\widehat{G}_s(t) := (\frac{1}{n_+}) \sum_{i=1}^n \mathds{1}\{ Y_i = +1, s(X_i) \le t \}$\\
+        $\widehat{H}_s(t) := (\frac{1}{n_-}) \sum_{i=1}^n \mathds{1}\{ Y_i = -1, s(X_i) \le t\}$
+        \item \textbf{Empirical ROC curve} : \\
+        $\widehat{ROC}_{H_s, G_s} := ROC_{\widehat{H}_s, \widehat{G}_s} $
+        \item \textbf{Empirical AUC} : \\
+        \vspace{-0.85cm} 
         \begin{flalign*}
-            \widehat{G}_s(t) &:= (1/n_+) \sum_{i=1}^n \mathds{1}\{ Y_i = +1, s(X_i)
-            \le t \}, &&\\
-            \widehat{H}_s(t) &:= (1/n_-) \sum_{i=1}^n \mathds{1}\{ Y_i = -1, s(X_i)
-            \le t\}.&&
+        \widehat{AUC}_{H_s,G_s} 
+        &:= AUC_{\widehat{H}_s, \widehat{G}_s}&& \\
+        &= \textstyle\frac{1}{n_+ n_-} \sum_{i < j} K( (s(X_i), Y_i), (s(X_j), Y_j))&&
         \end{flalign*} 
+        where, for any $t,t' \in \mathbf{R}^2, y,y' \in \{-1,+1\}^2$ :\\
+        $K( (t, y), (t', y')) = \mathds{1}\{ (y-y')(t-t') > 0\} + \frac{1}{2}\mathds{1}\{ y \ne y', t=t' \}$ .
     \end{itemize}
     
 \end{frame}

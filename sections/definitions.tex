@@ -17,33 +17,33 @@
     \end{itemize}
 \end{frame}
 
-\begin{frame}{Ranking}
-    \begin{figure}[H]
-        \centering
-        \begin{tikzpicture}
-            \begin{axis}[ 
-                xlabel=x,
-                ylabel=y,
-                xmin=0, xmax=1.0,
-                ymin=0, ymax=1.0,
-                xtick={0,0.2,0.4,0.6,0.8,1.0},
-                ytick={0,0.2,0.4,0.6,0.8,1.0},
-                legend pos=outer north east,
-                height=0.4\textwidth,
-                label style={font=\small},
-                tick label style={font=\small},
-                legend cell align={left},
-                legend style={font=\footnotesize,
-                            cells={align=left}}
-                ] 
-                \centering
-                \addplot
-                coordinates {(0.12,0.36)(0.15,0.33)(0.11,0.48)(0.6,0.45)};
-                \addlegendentry{ROC curve for perfect model};
-            \end{axis}
-        \end{tikzpicture}
-    \end{figure}
-\end{frame}
+% \begin{frame}{Ranking}
+%     \begin{figure}[H]
+%         \centering
+%         \begin{tikzpicture}
+%             \begin{axis}[ 
+%                 xlabel=x,
+%                 ylabel=y,
+%                 xmin=0, xmax=1.0,
+%                 ymin=0, ymax=1.0,
+%                 xtick={0,0.2,0.4,0.6,0.8,1.0},
+%                 ytick={0,0.2,0.4,0.6,0.8,1.0},
+%                 legend pos=outer north east,
+%                 height=0.4\textwidth,
+%                 label style={font=\small},
+%                 tick label style={font=\small},
+%                 legend cell align={left},
+%                 legend style={font=\footnotesize,
+%                             cells={align=left}}
+%                 ] 
+%                 \centering
+%                 \addplot
+%                 coordinates {(0.12,0.36)(0.15,0.33)(0.11,0.48)(0.6,0.45)};
+%                 \addlegendentry{ROC curve for perfect model};
+%             \end{axis}
+%         \end{tikzpicture}
+%     \end{figure}
+% \end{frame}
 
 \begin{frame}{Bipartite ranking}
 
@@ -111,9 +111,14 @@
 
     \begin{figure}
         \centering
-        \includegraphics[page=1]{images/output-figure0.pdf}
+        \includegraphics[page=1, scale=0.9]{images/output-figure0.pdf}
+        \vspace{-0.3cm}
         \caption{Different ROC curves}
     \end{figure}
+
+    \vspace{-0.4cm}
+
+    \tiny{Warning : When a curve is below the diagonal (like for the red line), we can simply switch the labels of the classes and we will get a better model. This means that the worst possible model is actually the random model.}\par
     
     % \begin{figure}[H]
     %     \centering
@@ -529,20 +534,34 @@
 
 \begin{frame}{ROC and bipartite ranking}
 
-
-The ROC curve \gbf{intrinsically embeds the information of the rank} by giving information on the confusion matrix for all possible thresholds.
+\begin{itemize}
+    \item  The ROC curve \gbf{intrinsically embeds the information of the rank} by giving information on the confusion matrix for all possible thresholds.
+\end{itemize}
 
 \begin{figure}
     \centering
    
-    \animategraphics[autoplay,loop,width=0.5\textwidth]{2}{images/gifs/roc_curve_creation/roc_curve_creation-}{1}{21}
+    \animategraphics[autoplay,loop,width=0.7\textwidth]{2}{images/gifs/roc_curve_creation/roc_curve_creation-}{1}{21}
     % ne fonctionne que sur adobe acrobat
     
 \end{figure}
 
-Therefore, the analysis of the ROC curve is a \gbf{common solution} to assess the performance of a \gbf{ranking model}.
+
 
 
 \end{frame}
 
+
+
+
+\begin{frame}{ROC and bipartite ranking}
+
+    \begin{itemize}
+        \item  Therefore, the analysis of the ROC curve and its AUC are \gbf{the gold standard} to assess the performance of a \gbf{bipartite ranking model}.
+        \item The ROC curve and AUC can also be directly used to \gbf{learn the ranking of the instances} in bipartite ranking models.
+        \item Examples for AUC optimisation : \footcite{clemencon2008ranking}\footcite{zhao2011online}
+        \item Examples for ROC curve pointwise optimisation : \footcite{pmlr-v80-vogel18a} \footcite{lieberman2024optimizing}
+    
+    \end{itemize}
+\end{frame}
         

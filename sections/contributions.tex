@@ -1,29 +1,21 @@
-\section{Contributions}
-\begin{frame}{Contributions}
+\section{Fairness in bipartite ranking}
 
-    The paper addresses the problem of \gbf{fairness} in \gbf{bipartite ranking models}, which have different requirements than classification models.
-    
-    The authors came up with \gbf{two contributions} to \gbf{improve fairness} of bipartite ranking models :
-  \begin{itemize}
-      \item AUC-based constraints
-      \item ROC-based constraints
-  \end{itemize}
-  
-  They show the \gbf{limitations} of the AUC-based constraints, and how the ROC-based constraints \gbf{address} them.
-\end{frame}
-
+\subsection{Motivation}
 \begin{frame}{Motivation}
     \begin{itemize}
-        \item The vast majority of fairness-aware machine learning research focuses on classification models.
-        \item However, many real-worl applications require bipartite ranking models. 
-        \item Because they are evaluated differently (\textit{i.e}, with ROC curves), evaluating fairness for bipartite ranking models might also be more challenging.        
-        \item However, learning a scoring function over a classifier adds more flexibility to the thresholds, which means that a fair scoring function will lead to fair decisions for all thresholds of interest.
+        \item Most of \gbf{fairness-aware} machine learning research focuses on \gbf{classification} models.
+        \item Because bipartite ranking models are evaluated differently (\textit{i.e}, with ROC curves), evaluating fairness for bipartite ranking models might be \gbf{more challenging}.        
+        \item However, learning a scoring function over a classifier adds \gbf{more flexibility} to the thresholds, which means that a fair scoring function will lead to \gbf{fair decisions for all thresholds of interest}.
     \end{itemize}
 \end{frame}
 
 
 \subsection{AUC-based constraints}
 \begin{frame}{AUC-based constraints}
+    Previous works \footcite{kallus2019fairness}\footcite{beutel2019fairness}\footcite{borkan2019nuanced} proposed to use \gbf{AUC-based constraints} to ensure fairness in bipartite ranking models. Precisely, \cite{kallus2019fairness} proposed to use \textit{intra-group pairwise} AUC fairness :
+    \begin{equation}
+        AUC_{H_s^(0),G_s^(0)} = AUC_{H_s^(1),G_s^(1)}
+    \end{equation}
 
 \end{frame}
 
@@ -38,5 +30,5 @@
 
 \subsection{ROC based constraints}
 \begin{frame}{ROC based constraints}
-    small change another change final change hopefully ok now it works
+    
 \end{frame}
