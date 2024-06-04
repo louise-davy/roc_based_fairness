@@ -1,2 +1,4 @@
-\beamer@slide {fig:example-1}{35}
-\beamer@slide {fig:roc_real_main_text}{44}
+\beamer@slide {eq:auc-based-constraints-general}{37}
+\beamer@slide {eq:barycenter-constraint-formulation}{38}
+\beamer@slide {fig:example-1}{39}
+\beamer@slide {fig:roc_real_main_text}{48}

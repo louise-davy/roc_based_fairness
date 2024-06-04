@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1717430272.9296 "main.bcf" "main.bbl" "main" 1717430866.59061 0
-  "main.bcf" 1717430866 109021 efeb477b4b9fce647d71dd22b4b3da23 "pdflatex"
+["biber main"] 1717492817.51836 "main.bcf" "main.bbl" "main" 1717515280.9265 0
+  "main.bcf" 1717515280 109168 eede357ebb6e06bab1e385a4904ceb4f "pdflatex"
   "references.bib" 1717430271 5183 9b9334d1e40046afedbe08917247a925 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1717430852.63609 "c:/Users/louis/Documents/Stage Télécom Paris/Présentations/Groupe Lecture/roc_based_fairness/main.tex" "main.pdf" "main" 1717430866.59188 0
-  "c:/Users/louis/Documents/Stage Télécom Paris/Présentations/Groupe Lecture/roc_based_fairness/main.tex" 1717430808 2209 80c37043fbccdca2e2f23d387ec8734e ""
+["pdflatex"] 1717515266.49873 "c:/Users/louis/Documents/Stage Télécom Paris/Présentations/Groupe Lecture/roc_based_fairness/main.tex" "main.pdf" "main" 1717515280.92788 0
+  "c:/Users/louis/Documents/Stage Télécom Paris/Présentations/Groupe Lecture/roc_based_fairness/main.tex" 1717492973 2294 b4ad5f728d3ef68db50d6d7208541d9a ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1716303346 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/kpfonts/kpfonts-expert.enc" 1716304951 2639 b7bbeb66c016cde6fdcad9263fe54a4a ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1716303941 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -46,6 +46,7 @@
   "c:/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpbne.pfb" 1716304951 18279 7aad9c053b21deb6ce3ea35c2cdb90d0 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpex.pfb" 1716304951 26063 1691ba566b0401a2658e6574f5f241e5 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpmi.pfb" 1716304951 29813 d05f8d6ea0d8afa920af22dddafc33f2 ""
+  "c:/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpmia.pfb" 1716304951 30461 69b749e6d9e6ecbcbda833c4699db58d ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb" 1716304951 37692 ff65f49f493de879aca846e1811bfa1f ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb" 1716304951 35294 e88bb6b7bdd82f594dee041ddea9423c ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpmne.pfb" 1716304951 18013 a3754f8df0b4dd3a76b5353fabb31650 ""
@@ -375,19 +376,19 @@
   "images/output-figure3.pdf" 1716292632 30135 24757708f33af1f95404966170ed2691 ""
   "images/output-figure4.pdf" 1716292632 30038 19882f06ac659cfa8fb1892d66f7ec4c ""
   "images/output-figure5.pdf" 1716292632 29898 3d9f21964899955612302119d7706054 ""
-  "main.aux" 1717430866 17850 2c5cee9356a1cea1540eebe3534de037 "pdflatex"
-  "main.bbl" 1717430275 19561 e518d0ae7ed4499a59b668fab681a894 "biber main"
-  "main.nav" 1717430866 7554 3a78922c0c7f70711eb8335f142d56ef "pdflatex"
-  "main.run.xml" 1717430866 2313 a62947d0c020c6b770a966c0879ab06a "pdflatex"
-  "main.tex" 1717430808 2209 80c37043fbccdca2e2f23d387ec8734e ""
-  "main.toc" 1717430866 904 9129a5f9adf871a5167fe2337efa2fa0 "pdflatex"
+  "main.aux" 1717515280 18907 5d8d7e8a3453a663e66a2ac78dc3acd8 "pdflatex"
+  "main.bbl" 1717492820 19561 e518d0ae7ed4499a59b668fab681a894 "biber main"
+  "main.nav" 1717515280 8006 ebf17c489623757e5cf2f73f9109d4cd "pdflatex"
+  "main.run.xml" 1717515280 2313 a62947d0c020c6b770a966c0879ab06a "pdflatex"
+  "main.tex" 1717492973 2294 b4ad5f728d3ef68db50d6d7208541d9a ""
+  "main.toc" 1717515280 904 0f6f589436bdc2d6a831fc8932092ab5 "pdflatex"
   "mycolourtheme.sty" 1716292632 1204 4372d04789bd961df5b34e816680bc37 ""
   "sections/applications.tex" 1717071702 713 a4d38eb76906d8b6ce29d16071fd845d ""
   "sections/conclusion.tex" 1717430846 100 a56346ae69f05e6544b2c676d711a6ba ""
-  "sections/contributions.tex" 1717430564 1574 eb72dab1d836890d67dbcf5c8bc83e5d ""
-  "sections/definitions.tex" 1717430553 22095 28a0256e5f348ecbc53684a406b4bf84 ""
+  "sections/contributions.tex" 1717515251 5075 cfb3d4b6bb08839af4073210335a9318 ""
+  "sections/definitions.tex" 1717492469 22125 1b95761756391d317fab4524bf53b120 ""
   "sections/introduction.tex" 1717427302 1214 0079dbd6033766adef5b33aa7198016d ""
-  "sections/notations.tex" 1717428171 3730 6c3599a2b62b8283ad61566a835678e6 ""
+  "sections/notations.tex" 1717494158 3791 bbcfc4824e15df1a2cfc8fef6ac781bd ""
   (generated)
   "main.aux"
   "main.auxlock"
