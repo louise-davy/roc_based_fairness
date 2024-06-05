@@ -12,6 +12,8 @@
 
 \subsection{AUC-based constraints}
 \begin{frame}{AUC-based constraints}
+
+    \blfootnote{Reminder : $G_s(t) = \mathbf{P}\{s(X) \leq t | Y = +1\}$ and $H_s(t) = \mathbf{P}\{s(X) > t | Y = -1\}$}
     
     Previous works proposed to use \gbf{AUC-based constraints} to ensure fairness in bipartite ranking models. Let's denote $G_s^{(i)}$ (resp. $H_s^{(i)}$) the CDF of the score on the positive (resp. negatives) of group $z \in \{0,1\}$.
     
@@ -20,10 +22,14 @@
         AUC_{H_s^{(0)},G_s^{(0)}} = AUC_{H_s^{(1)},G_s^{(1)}}
     \end{equation}
 
+    
+
 \end{frame}
 
 
 \begin{frame}{AUC-based constraints}
+
+    \blfootnote{Reminder : $G_s(t) = \mathbf{P}\{s(X) \leq t | Y = +1\}$ and $H_s(t) = \mathbf{P}\{s(X) > t | Y = -1\}$}
     
     \citeauthor{borkan2019nuanced}\footcite{borkan2019nuanced} proposed to use \gbf{Background Negative Subgroup Positive (BNSP)} AUC fairness :
 
@@ -63,13 +69,13 @@
         \beta'^\top D(s)}.
     \end{align}
 
-    with $ D(s) := (H^{(0)}_s, H^{(1)}_s, G^{(0)}_s, G^{(1)}_s)^\top$ and the probability vectors $\alpha, \beta, \alpha', \beta' \in  \mathcal{P}$ where $\mathcal{P} = \{ v \mid v \in \mathbf{R}_+^4, \mathbf{1}^\top v = 1 \}$.
+    with $ D(s) := (H^{(0)}_s, H^{(1)}_s, G^{(0)}_s, G^{(1)}_s)^\top$ and the probability vectors $\alpha, \beta, \alpha', \beta' \in  \mathcal{P}$ where $\mathcal{P} = \{ v \mid v \in \mathbb{R}_+^4, \mathbf{1}^\top v = 1 \}$.
 
 \end{frame}
 
 
 \begin{frame}{AUC-based constraints}
-    Equation \ref{eq:auc-based-constraints-general} is under-specified, so the authors finally formulate all relevant constraints as a linear combination of 5 elementary constraints.
+    Equation \ref{eq:auc-based-constraints-general} is \gbf{under-specified}, so the authors finally formulate all \gbf{relevant} constraints as a linear combination of \gbf{5 elementary constraints}.
 
     \vspace{-0.85cm} 
     \begin{align*}
@@ -88,35 +94,74 @@
         \Gamma_l C_l (s) = 0,
     \end{align}
 
-    where $\Gamma = (\Gamma_1 , \dots, \Gamma_5)^\top \in \mathbf{R}^5$.
+    where $\Gamma = (\Gamma_1 , \dots, \Gamma_5)^\top \in \mathbb{R}^5$.
 
+
+\end{frame}
+
+
+\begin{frame}{AUC-based constraints}
+    
+    The \gbf{learning problem} is defined as : 
+
+    \begin{align*}
+        \label{eq:auc_general_problem}
+            \max_{s\in\mathcal{S}} \quad AUC_{H_s,G_s} - \lambda |\Gamma^\top C(s)|,
+    \end{align*}
+    where $\lambda \ge 0$ is a hyperparameter balancing ranking performance and fairness.
+
+    For example, for the \gbf{intra-group pairwise} AUC fairness constraint, we have :
+
+    \begin{align*}
+        L_\lambda(s) := AUC_{H_s,G_s} - \lambda \big|AUC_{H^{(0)}_s, G^{(0)}_s} - AUC_{ H^{(1)}_s, G^{(1)}_s }\big|.
+    \end{align*}
 
 \end{frame}
 
 
 
 \begin{frame}{Limits of AUC-based constraints}
-    \begin{columns}
-        \begin{column}{0.5\textwidth}
-            \begin{figure}[t]
-                \centering
-                \includegraphics[width=1\columnwidth, trim = 0cm 0cm 2.35cm 2.4cm, clip]{images/original_paper/example_simple_dists_explained_with_table2.pdf}
-                \caption{Illustrating the limitations of $AUC$-based fairness.}
-                \label{fig:example-1}
-            \end{figure}
-        \end{column}
+    \begin{figure}[t]
+        \centering
+        \includegraphics[width=0.6\columnwidth, trim = 0cm 0cm 2.35cm 2.4cm, clip]{images/original_paper/example_simple_dists_explained_with_table2.pdf}
+        \caption{Illustrating the limitations of $AUC$-based fairness.}
+        \label{fig:example-1}
+    \end{figure}
+\end{frame}
 
-        \begin{column}{0.5\textwidth}
-            \begin{itemize}
-                \item Here, both AUCs are equal.
-                \item However, when looking at the beginning, there are a lot more false positives for the sensitive group.
-            \end{itemize}
-        \end{column}
-    \end{columns}
+\subsection{ROC-based constraints}
+\begin{frame}{ROC-based constraints}
+
+    For $\alpha \in [0,1]$, consider the deviations between the \gbf{positive} (resp. \gbf{negative}) \gbf{inter-group ROCs} and the \gbf{identity function}:
+    \begin{align*}
+        \Delta_{G, \alpha}(s) &:= ROC_{G^{(0)}_s, G^{(1)}_s}(\alpha) - \alpha, \\
+        \big( \text{resp. } \Delta_{H, \alpha}(s) & := ROC_{H^{(0)}_s,H^{(1)}_s}
+        (\alpha) - \alpha
+        \big).
+    \end{align*}
+
+
+    Ideally, we would want $\Delta_{G, \alpha}(s)$ and $\Delta_{H, \alpha}(s)$ to be equal to 0 for all $\alpha \in [0,1]$.
+
+    But this will most likely \gbf{jeopardize} the ranking performance as it is \gbf{too restrictive} !
     
 \end{frame}
 
-\subsection{ROC based constraints}
-\begin{frame}{ROC based constraints}
+\begin{frame}{ROC-base constraints}
+
+    Instead, the authors propose a general approach to implement the satistifaction of a \gbf{finite number of fairness constraints} denoted by $m_H,m_G \in \mathbf{N}$ for the negatives and the positives respectively. We define $\alpha_{H} = [\alpha_H^{(1)},\dots,\alpha_H^{(m_H)}]\in[0,1]^{m_H}$ and $\alpha_{G} = [\alpha_G^{(1)},\dots,\alpha_G^{(m_G)}]\in[0,1]^{m_G}$ the points at which they apply (sorted in strictly increasing order).
+
+    The \gbf{learning objective} becomes:
+    \begin{align*}
+        L_\Lambda(s) = 
+        AUC_{H_s,G_s} &- 
+        \sum_{k=1}^{m_H} \lambda_H^{(k)}  \big| \Delta_{H,\alpha_H^{
+        (k)}}(s) \big| 
+        - \sum_{k=1}^{m_G} \lambda_G^{(k)} \big| \Delta_{G,\alpha_G^{(k)}}(s) \big|,
+    \end{align*}
+     
+    $\lambda_H=[\lambda_H^{(1)},\dots,\lambda_H^{(m_H)}]\in \mathbf{R}_+^
+    {m_H}$ and $\lambda_G=[\lambda_G^{(1)},\dots,\lambda_G^{(m_G)}]\in \mathbf{R}_+^{m_G}$ are
+    hyperparameters.
     
 \end{frame}

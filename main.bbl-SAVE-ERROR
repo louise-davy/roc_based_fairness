@@ -19,6 +19,324 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
+    \entry{beutel2019fairness}{article}{}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=af12cc8ca94c1e303f4ae44f22264508}{%
+           family={Beutel},
+           familyi={B\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8106549c70bb754bff2f25ad733d8cc7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jilin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55196db49d4df72713bd8e3d226595b6}{%
+           family={Doshi},
+           familyi={D\bibinitperiod},
+           given={Tulsee},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32980517ca724eef9c66e868ccb9c9b9}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Hai},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=196e297dc793fe379b9ff2ca854d011b}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2101a0f6a72a2fb022cd3e2d45461e1}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f22ad1d6762fbfcfa807ec8844230527}{%
+           family={Heldt},
+           familyi={H\bibinitperiod},
+           given={Lukasz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eed156c687a79d721734200afc38d239}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Zhe},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ed8ab8b37dfd9a2da047f23f87c02a9}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Lichan},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=594b2be737e055817db9ad276b6bf05a}{%
+           family={Chi},
+           familyi={C\bibinitperiod},
+           given={Ed\bibnamedelima H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8697c0e5342eadbb20f600809e119cd}{%
+           family={Goodrow},
+           familyi={G\bibinitperiod},
+           given={Cristos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e8859a60b5b3cddd831867c4eeb09dd3}
+      \strng{fullhash}{bd59e441aac57b34ae617cd7c4463399}
+      \strng{fullhashraw}{bd59e441aac57b34ae617cd7c4463399}
+      \strng{bibnamehash}{421e60bc2f4048de78aeb9a38c8e060d}
+      \strng{authorbibnamehash}{421e60bc2f4048de78aeb9a38c8e060d}
+      \strng{authornamehash}{e8859a60b5b3cddd831867c4eeb09dd3}
+      \strng{authorfullhash}{bd59e441aac57b34ae617cd7c4463399}
+      \strng{authorfullhashraw}{bd59e441aac57b34ae617cd7c4463399}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Fairness in Recommendation Ranking through Pairwise Comparisons}
+      \field{volume}{abs/1903.00780}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1903.00780
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1903.00780
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1903.00780
+      \endverb
+    \endentry
+    \entry{borkan2019nuanced}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=6a7ca9a300f7213904de5dd32bb71013}{%
+           family={Borkan},
+           familyi={B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=400f81b5135432340b45d9d15d3ad16d}{%
+           family={Dixon},
+           familyi={D\bibinitperiod},
+           given={Lucas},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7771f61ddf0fe51cc636aca5f99f4e4d}{%
+           family={Sorensen},
+           familyi={S\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66576e9f01e1a9afd0090016b9570aa9}{%
+           family={Thain},
+           familyi={T\bibinitperiod},
+           given={Nithum},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f670ceb37942ac2224dd5f6bb125aa7}{%
+           family={Vasserman},
+           familyi={V\bibinitperiod},
+           given={Lucy},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5576c2f38525d49907740ca744106379}
+      \strng{fullhash}{5b205c707ebc952d584843f934885b61}
+      \strng{fullhashraw}{5b205c707ebc952d584843f934885b61}
+      \strng{bibnamehash}{0e18b9ba333921b1046d926f8ae78a06}
+      \strng{authorbibnamehash}{0e18b9ba333921b1046d926f8ae78a06}
+      \strng{authornamehash}{5576c2f38525d49907740ca744106379}
+      \strng{authorfullhash}{5b205c707ebc952d584843f934885b61}
+      \strng{authorfullhashraw}{5b205c707ebc952d584843f934885b61}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Nuanced Metrics for Measuring Unintended Bias with Real Data for Text Classification}
+      \field{volume}{abs/1903.04561}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1903.04561
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1903.04561
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1903.04561
+      \endverb
+    \endentry
+    \entry{clemencon2008ranking}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fff74905b46bb62672d2997d51d51c4d}{%
+           family={Clémençon},
+           familyi={C\bibinitperiod},
+           given={Stéphan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71f26e09787f9c806cccd1220c502611}{%
+           family={Lugosi},
+           familyi={L\bibinitperiod},
+           given={Gábor},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b064faef069c15dd4102fb1c7eb4f76}{%
+           family={Vayatis},
+           familyi={V\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bbc795870d67cad6d60f8b125bc20070}
+      \strng{fullhash}{bbc795870d67cad6d60f8b125bc20070}
+      \strng{fullhashraw}{bbc795870d67cad6d60f8b125bc20070}
+      \strng{bibnamehash}{bbc795870d67cad6d60f8b125bc20070}
+      \strng{authorbibnamehash}{bbc795870d67cad6d60f8b125bc20070}
+      \strng{authornamehash}{bbc795870d67cad6d60f8b125bc20070}
+      \strng{authorfullhash}{bbc795870d67cad6d60f8b125bc20070}
+      \strng{authorfullhashraw}{bbc795870d67cad6d60f8b125bc20070}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ranking and empirical minimization of U-statistics}
+      \field{year}{2008}
+    \endentry
+    \entry{kallus2019fairness}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2db96cc54afe3fe8c684be53af54a7bf}{%
+           family={Kallus},
+           familyi={K\bibinitperiod},
+           given={Nathan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9e1d7c17694696833a7f501d67143a4}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{94ee67824833d351384c9ed9a46b9422}
+      \strng{fullhash}{94ee67824833d351384c9ed9a46b9422}
+      \strng{fullhashraw}{94ee67824833d351384c9ed9a46b9422}
+      \strng{bibnamehash}{94ee67824833d351384c9ed9a46b9422}
+      \strng{authorbibnamehash}{94ee67824833d351384c9ed9a46b9422}
+      \strng{authornamehash}{94ee67824833d351384c9ed9a46b9422}
+      \strng{authorfullhash}{94ee67824833d351384c9ed9a46b9422}
+      \strng{authorfullhashraw}{94ee67824833d351384c9ed9a46b9422}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{The Fairness of Risk Scores Beyond Classification: Bipartite Ranking and the xAUC Metric}
+      \field{volume}{abs/1902.05826}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1902.05826
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1902.05826
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1902.05826
+      \endverb
+    \endentry
+    \entry{lieberman2024optimizing}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=00b52ec1debd9f93eed9bdc4b3db306c}{%
+           family={Lieberman},
+           familyi={L\bibinitperiod},
+           given={Kelsey},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86cef21707cae68bf9551189150de8e8}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Shuai},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31eee14781a15a0f80f3ca2947bef178}{%
+           family={Ravindran},
+           familyi={R\bibinitperiod},
+           given={Swarna\bibnamedelima Kamlam},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c51dbff8f01c3b5f905da5777a9f5c8}{%
+           family={Tomasi},
+           familyi={T\bibinitperiod},
+           given={Carlo},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dd450661a6b29ceab374f46bff8c9c29}
+      \strng{fullhash}{bc37384013a192d7f501f3948697f7f6}
+      \strng{fullhashraw}{bc37384013a192d7f501f3948697f7f6}
+      \strng{bibnamehash}{28ac30a5620c1acf19034926f800b93e}
+      \strng{authorbibnamehash}{28ac30a5620c1acf19034926f800b93e}
+      \strng{authornamehash}{dd450661a6b29ceab374f46bff8c9c29}
+      \strng{authorfullhash}{bc37384013a192d7f501f3948697f7f6}
+      \strng{authorfullhashraw}{bc37384013a192d7f501f3948697f7f6}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2402.05400}
+      \field{title}{Optimizing for ROC Curves on Class-Imbalanced Data by Training over a Family of Loss Functions}
+      \field{year}{2024}
+    \endentry
+    \entry{menon2016bipartite}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d5918aa4a3a43984bc6bd2bf025e1869}{%
+           family={Menon},
+           familyi={M\bibinitperiod},
+           given={Aditya\bibnamedelima Krishna},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e35ef7841aac7d181dcf0a232a11d6d}{%
+           family={Williamson},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{101726de491010ce39c0c469266ee0a1}
+      \strng{fullhash}{101726de491010ce39c0c469266ee0a1}
+      \strng{fullhashraw}{101726de491010ce39c0c469266ee0a1}
+      \strng{bibnamehash}{101726de491010ce39c0c469266ee0a1}
+      \strng{authorbibnamehash}{101726de491010ce39c0c469266ee0a1}
+      \strng{authornamehash}{101726de491010ce39c0c469266ee0a1}
+      \strng{authorfullhash}{101726de491010ce39c0c469266ee0a1}
+      \strng{authorfullhashraw}{101726de491010ce39c0c469266ee0a1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Machine Learning Research}
+      \field{number}{195}
+      \field{title}{Bipartite Ranking: a Risk-Theoretic Perspective}
+      \field{volume}{17}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 102}
+      \range{pages}{102}
+      \verb{urlraw}
+      \verb http://jmlr.org/papers/v17/14-265.html
+      \endverb
+      \verb{url}
+      \verb http://jmlr.org/papers/v17/14-265.html
+      \endverb
+    \endentry
     \entry{narasimhan2013relationship}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=816e139aa3578d4d0ae236d90db153b2}{%
@@ -50,6 +368,122 @@
       \field{title}{On the relationship between binary classification, bipartite ranking, and binary class probability estimation}
       \field{volume}{26}
       \field{year}{2013}
+    \endentry
+    \entry{pmlr-v80-vogel18a}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=95f7b4d5d4bc24bbc8e026f50cb94113}{%
+           family={Vogel},
+           familyi={V\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13661eaafb5c293bc8bebb8c2250a7d8}{%
+           family={Bellet},
+           familyi={B\bibinitperiod},
+           given={Aurélien},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fff74905b46bb62672d2997d51d51c4d}{%
+           family={Clémençon},
+           familyi={C\bibinitperiod},
+           given={Stéphan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=dc770b9b0d58d3008bbb3906497d898c}{%
+           family={Dy},
+           familyi={D\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod}}}%
+        {{hash=112eb0b147c4a7f674d015a86e5dea70}{%
+           family={Krause},
+           familyi={K\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{b29e079cb8b5bd90f0842ebecd4a01f6}
+      \strng{fullhash}{b29e079cb8b5bd90f0842ebecd4a01f6}
+      \strng{fullhashraw}{b29e079cb8b5bd90f0842ebecd4a01f6}
+      \strng{bibnamehash}{b29e079cb8b5bd90f0842ebecd4a01f6}
+      \strng{authorbibnamehash}{b29e079cb8b5bd90f0842ebecd4a01f6}
+      \strng{authornamehash}{b29e079cb8b5bd90f0842ebecd4a01f6}
+      \strng{authorfullhash}{b29e079cb8b5bd90f0842ebecd4a01f6}
+      \strng{authorfullhashraw}{b29e079cb8b5bd90f0842ebecd4a01f6}
+      \strng{editorbibnamehash}{83be554d58af5be1788b5c3616f0e92a}
+      \strng{editornamehash}{83be554d58af5be1788b5c3616f0e92a}
+      \strng{editorfullhash}{83be554d58af5be1788b5c3616f0e92a}
+      \strng{editorfullhashraw}{83be554d58af5be1788b5c3616f0e92a}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The performance of many machine learning techniques depends on the choice of an appropriate similarity or distance measure on the input space. Similarity learning (or metric learning) aims at building such a measure from training data so that observations with the same (resp. different) label are as close (resp. far) as possible. In this paper, similarity learning is investigated from the perspective of pairwise bipartite ranking, where the goal is to rank the elements of a database by decreasing order of the probability that they share the same label with some query data point, based on the similarity scores. A natural performance criterion in this setting is pointwise ROC optimization: maximize the true positive rate under a fixed false positive rate. We study this novel perspective on similarity learning through a rigorous probabilistic framework. The empirical version of the problem gives rise to a constrained optimization formulation involving U-statistics, for which we derive universal learning rates as well as faster rates under a noise assumption on the data distribution. We also address the large-scale setting by analyzing the effect of sampling-based approximations. Our theoretical results are supported by illustrative numerical experiments.}
+      \field{booktitle}{Proceedings of the 35th International Conference on Machine Learning}
+      \field{month}{7}
+      \field{series}{Proceedings of Machine Learning Research}
+      \field{title}{A Probabilistic Theory of Supervised Similarity Learning for Pointwise {ROC} Curve Optimization}
+      \field{volume}{80}
+      \field{year}{2018}
+      \field{pages}{5065\bibrangedash 5074}
+      \range{pages}{10}
+      \verb{file}
+      \verb http://proceedings.mlr.press/v80/vogel18a/vogel18a.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://proceedings.mlr.press/v80/vogel18a.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.mlr.press/v80/vogel18a.html
+      \endverb
+    \endentry
+    \entry{zhao2011online}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fe645b7ce1ec4b48743cbe538410cc82}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Peilin},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3873cf857c07c3080a03f272aea133d}{%
+           family={Hoi},
+           familyi={H\bibinitperiod},
+           given={Steven\bibnamedelima CH},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ec450ccbc283608eae1f75d15f46f63}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Rong},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3c68db91a7e6c348daedda6db84012c}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Tianbo},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {International Machine Learning Society}%
+      }
+      \strng{namehash}{4318c307485e6cc0d29771a9b2fdd846}
+      \strng{fullhash}{0cb115437674e3aab260f711502265bc}
+      \strng{fullhashraw}{0cb115437674e3aab260f711502265bc}
+      \strng{bibnamehash}{87212c79b981eafebedebb50b830a0f2}
+      \strng{authorbibnamehash}{87212c79b981eafebedebb50b830a0f2}
+      \strng{authornamehash}{4318c307485e6cc0d29771a9b2fdd846}
+      \strng{authorfullhash}{0cb115437674e3aab260f711502265bc}
+      \strng{authorfullhashraw}{0cb115437674e3aab260f711502265bc}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Online AUC maximization}
+      \field{year}{2011}
     \endentry
   \enddatalist
 \endrefsection

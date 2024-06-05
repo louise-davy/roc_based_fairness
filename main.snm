@@ -1,4 +1,6 @@
 \beamer@slide {eq:auc-based-constraints-general}{37}
 \beamer@slide {eq:barycenter-constraint-formulation}{38}
-\beamer@slide {fig:example-1}{39}
-\beamer@slide {fig:roc_real_main_text}{48}
+\beamer@slide {eq:auc_general_problem}{39}
+\beamer@slide {fig:example-1}{40}
+\beamer@slide {fig:compas_dataset}{46}
+\beamer@slide {fig:roc_real_main_text}{50}

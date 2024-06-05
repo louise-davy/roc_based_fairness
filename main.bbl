@@ -296,6 +296,47 @@
       \field{title}{Optimizing for ROC Curves on Class-Imbalanced Data by Training over a Family of Loss Functions}
       \field{year}{2024}
     \endentry
+    \entry{menon2016bipartite}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d5918aa4a3a43984bc6bd2bf025e1869}{%
+           family={Menon},
+           familyi={M\bibinitperiod},
+           given={Aditya\bibnamedelima Krishna},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e35ef7841aac7d181dcf0a232a11d6d}{%
+           family={Williamson},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{101726de491010ce39c0c469266ee0a1}
+      \strng{fullhash}{101726de491010ce39c0c469266ee0a1}
+      \strng{fullhashraw}{101726de491010ce39c0c469266ee0a1}
+      \strng{bibnamehash}{101726de491010ce39c0c469266ee0a1}
+      \strng{authorbibnamehash}{101726de491010ce39c0c469266ee0a1}
+      \strng{authornamehash}{101726de491010ce39c0c469266ee0a1}
+      \strng{authorfullhash}{101726de491010ce39c0c469266ee0a1}
+      \strng{authorfullhashraw}{101726de491010ce39c0c469266ee0a1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Machine Learning Research}
+      \field{number}{195}
+      \field{title}{Bipartite Ranking: a Risk-Theoretic Perspective}
+      \field{volume}{17}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 102}
+      \range{pages}{102}
+      \verb{urlraw}
+      \verb http://jmlr.org/papers/v17/14-265.html
+      \endverb
+      \verb{url}
+      \verb http://jmlr.org/papers/v17/14-265.html
+      \endverb
+    \endentry
     \entry{narasimhan2013relationship}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=816e139aa3578d4d0ae236d90db153b2}{%
